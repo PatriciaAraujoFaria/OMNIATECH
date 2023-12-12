@@ -1,0 +1,209 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+body {
+    background-color: #F9F9F9;
+    
+    
+}
+
+.titulod{
+    width: 43.625rem;
+    padding-top: 4.667rem;
+    padding-bottom: 0.9375rem;
+}
+
+header {
+    background-image: url(../images/fundo.svg);
+    width: 100%;
+    height: 100vh;
+    
+}
+header > img{
+    width: 10.625rem;
+    position: absolute;
+    margin-left: 23.75rem;
+    margin-top: 0.625rem;
+
+}
+
+.intro {
+    margin-top: 5rem;
+    font-size: 5rem;
+    letter-spacing: 0.5rem;
+
+ 
+}
+
+.intro1{
+    font-size: 1.5625rem;
+    padding-top: 1.25rem; 
+    font-weight: bolder;
+    color: white;
+    
+   
+}
+
+.intro2{
+    font-size: 1.25rem;
+    padding-top: 1.875rem; 
+    padding-bottom: 3.125rem;
+    font-weight: bolder;
+    color: white;
+   
+
+}
+
+.introducao > a {
+    text-decoration: none;
+    border: 0.125rem solid black;
+    background-color: #a10707;
+    font-weight: bolder;
+    padding: 0.625rem 1.875rem;
+    border-radius: 1.875rem;
+    color: white;
+    
+    
+} 
+.sessao1 {
+    font-size: 1.25rem;
+}
+
+.sessao1-titulo{
+    margin-top: 3.125rem;
+    margin-bottom: 3.125rem;
+    font-weight: bolder;    
+ 
+}
+
+.textoicon{
+    font-size: 4.375rem;
+    color: #a10707;
+}
+
+
+.sessao2-tamanho{
+    font-weight: bolder;
+    font-size: 1.5625rem;
+}
+.sessao3-titulo{
+    font-family: 'Nunito', sans-serif;
+    font-weight: bolder;  
+}
+
+.sessao3-botao > a {
+    text-decoration: none;
+    border: 0.125rem solid black;
+    background-color: #a10707;
+    font-weight: bolder;
+    padding: 0.625rem 1.875rem;
+    border-radius: 1.875rem;
+    color: white;
+    
+}
+
+.sessao4{
+    background-image: url(../images/dd.svg);
+    width: 100%;
+    height: 100vh;
+    font-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+
+.sessao4-titulo{
+   margin-top: 4.375rem;
+   margin-bottom: 3.125rem;
+   font-weight: bolder;
+}
+
+.sessao4-texto{
+    margin-bottom: 3.125rem;
+    font-size: 1.5625rem;
+    font-weight: bold;
+    
+}
+
+
+.sessao4-texto2{
+    margin-bottom: 3.125rem;
+    font-size: 1.4375rem;
+    font-weight: bold;
+    
+}
+
+.botao1 > a {
+    text-decoration: none;
+    font-weight: bolder;
+    background-color: #a10707;
+    border: 0.125rem solid black;
+    padding: 0.625rem 1.875rem;
+    border-radius: 1.875rem;
+    color: white;
+  
+}
+.sessao5{
+    
+    font-weight: bolder;
+    
+}
+.sessao5-titulo{
+    margin-top: 1.875rem;
+    margin-bottom: 3.125rem;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bolder;
+ }
+ 
+.sessao6{
+    background-color: #ebecee;
+}
+.imagem{
+    width: 18.75rem;
+}
+.paty{
+    width: 18.75rem;
+}
+.iconefim > a{
+    color: #a10707;
+    font-weight: bolder;
+    font-size: 2.5rem;
+    
+}
+.final >p{
+    padding-top: 0.625rem;
+    color: #a10707;
+    font-weight: bolder;
+}
+
+.cor{
+    padding-left: 0.625rem;
+}
+ 
+
+
+@media (max-width: 576px) {
+    .titulod{
+        padding-top: 8.125rem;        
+    }
+    
+   
+}
+@media (max-width: 772px) {
+    .paty{
+        width: 10.75rem;
+    }
+   
+}
