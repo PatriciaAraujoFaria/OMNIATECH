@@ -202,6 +202,12 @@ header > img{
     .titulod{
         padding-top: 8.125rem;        
     }
+    .intro1{
+        padding-top: 3.125rem; 
+    }
+    .intro2{
+        padding-bottom: 3.125rem; 
+    }
     .paty{
         display: none;
     }
