@@ -21,7 +21,7 @@ body {
 
 .titulod{
     width: 43.625rem;
-    padding-top: 4.667rem;
+    padding-top: 6.667rem;
     padding-bottom: 0.9375rem;
 }
 
@@ -31,13 +31,6 @@ header {
     height: 100vh;
     
     
-}
-header > img{
-    width: 10.625rem;
-    position: absolute;
-    margin-left: 23.75rem;
-    margin-top: 0.625rem;
-
 }
 
 .intro {
